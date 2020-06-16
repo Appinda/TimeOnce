@@ -40,7 +40,7 @@ module.exports = {
   */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
+    ['nuxt-buefy', { css: false }],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
@@ -53,8 +53,8 @@ module.exports = {
   */
   styleResources: {
     scss: [
-      'assets/scss/abstracts/_mixins.scss',
-      'assets/scss/vars/_colors.scss'
+      'assets/scss/vars/*.scss',
+      'assets/scss/abstracts/*.scss',
     ]
   },
   /*

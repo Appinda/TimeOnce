@@ -1,0 +1,72 @@
+/* ==================================
+**                VALUES
+** ================================== */
+
+$spacing-0: 0;
+$spacing-1: .25rem;
+$spacing-2: .5rem;
+$spacing-3: .75rem;
+$spacing-4: 1rem;
+$spacing-5: 1.5rem;
+$spacing-6: 3rem;
+
+/* ==================================
+**                MARGIN
+** ================================== */
+
+// Left
+.ml-0 { margin-left: $spacing-0; }
+.ml-1 { margin-left: $spacing-1; }
+.ml-2 { margin-left: $spacing-2; }
+.ml-3 { margin-left: $spacing-3; }
+.ml-4 { margin-left: $spacing-4; }
+.ml-5 { margin-left: $spacing-5; }
+.ml-6 { margin-left: $spacing-6; }
+// Top
+.mt-0 { margin-top: $spacing-0; }
+.mt-1 { margin-top: $spacing-1; }
+.mt-2 { margin-top: $spacing-2; }
+.mt-3 { margin-top: $spacing-3; }
+.mt-4 { margin-top: $spacing-4; }
+.mt-5 { margin-top: $spacing-5; }
+.mt-6 { margin-top: $spacing-6; }
+// Right
+.mr-0 { margin-right: $spacing-0; }
+.mr-1 { margin-right: $spacing-1; }
+.mr-2 { margin-right: $spacing-2; }
+.mr-3 { margin-right: $spacing-3; }
+.mr-4 { margin-right: $spacing-4; }
+.mr-5 { margin-right: $spacing-5; }
+.mr-6 { margin-right: $spacing-6; }
+// Bottom
+.mb-0 { margin-bottom: $spacing-0; }
+.mb-1 { margin-bottom: $spacing-1; }
+.mb-2 { margin-bottom: $spacing-2; }
+.mb-3 { margin-bottom: $spacing-3; }
+.mb-4 { margin-bottom: $spacing-4; }
+.mb-5 { margin-bottom: $spacing-5; }
+.mb-6 { margin-bottom: $spacing-6; }
+// X
+.mx-0 { margin-left: $spacing-0; margin-right: $spacing-0; }
+.mx-1 { margin-left: $spacing-1; margin-right: $spacing-1; }
+.mx-2 { margin-left: $spacing-2; margin-right: $spacing-2; }
+.mx-3 { margin-left: $spacing-3; margin-right: $spacing-3; }
+.mx-4 { margin-left: $spacing-4; margin-right: $spacing-4; }
+.mx-5 { margin-left: $spacing-5; margin-right: $spacing-5; }
+.mx-6 { margin-left: $spacing-6; margin-right: $spacing-6; }
+// Y
+.my-0 { margin-top: $spacing-0; margin-bottom: $spacing-0; }
+.my-1 { margin-top: $spacing-1; margin-bottom: $spacing-1; }
+.my-2 { margin-top: $spacing-2; margin-bottom: $spacing-2; }
+.my-3 { margin-top: $spacing-3; margin-bottom: $spacing-3; }
+.my-4 { margin-top: $spacing-4; margin-bottom: $spacing-4; }
+.my-5 { margin-top: $spacing-5; margin-bottom: $spacing-5; }
+.my-6 { margin-top: $spacing-6; margin-bottom: $spacing-6; }
+// M
+.my-0 { margin-top: $spacing-0; margin-bottom: $spacing-0; margin-left: $spacing-0; margin-right: $spacing-0; }
+.my-1 { margin-top: $spacing-1; margin-bottom: $spacing-1; margin-left: $spacing-1; margin-right: $spacing-1; }
+.my-2 { margin-top: $spacing-2; margin-bottom: $spacing-2; margin-left: $spacing-2; margin-right: $spacing-2; }
+.my-3 { margin-top: $spacing-3; margin-bottom: $spacing-3; margin-left: $spacing-3; margin-right: $spacing-3; }
+.my-4 { margin-top: $spacing-4; margin-bottom: $spacing-4; margin-left: $spacing-4; margin-right: $spacing-4; }
+.my-5 { margin-top: $spacing-5; margin-bottom: $spacing-5; margin-left: $spacing-5; margin-right: $spacing-5; }
+.my-6 { margin-top: $spacing-6; margin-bottom: $spacing-6; margin-left: $spacing-6; margin-right: $spacing-6; }
