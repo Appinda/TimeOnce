@@ -2,6 +2,7 @@ const express = require('express')
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 const app = express()
+const GraphQLRouter = require('./graphql');
 
 // Import and Set Nuxt.js options
 const config = require('../nuxt.config.js')
@@ -12,6 +13,9 @@ async function start () {
   const nuxt = new Nuxt(config)
 
   const { host, port } = nuxt.options.server
+
+  const gqlrouter = new GraphQLRouter();
+  app.use('/graphql', gqlrouter.getRouter());
 
   await nuxt.ready()
   // Build only in dev mode
